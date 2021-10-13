@@ -1,0 +1,71 @@
+.contributor-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px;
+    cursor: pointer;
+
+    border-bottom: 1px solid #f5ce34;
+}
+
+.contributor-row:hover {
+    background: linear-gradient(to top, #f5ce3442, #fff);
+}
+
+.contributor-row span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.paid-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.paid-name p {
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.text-paid {
+    text-decoration: line-through;
+}
+
+.title-contributor {
+    font-size: 20px;
+}
+
+.del-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 20px 0;
+}
+
+.button-del {
+    background: #ffffffd6;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px #888;
+    color: #000;
+    font-weight: 700;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin: 0 0 0 20px;
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+.button-del:hover {
+    background: linear-gradient(to bottom, #ffffffd6, #ffccccd6);
+}
+
+.button-del:active {
+    filter: brightness(80%);
+}

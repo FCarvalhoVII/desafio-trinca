@@ -1,0 +1,17 @@
+.main-container {
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 72.73vh;
+}
+
+.cards-container {
+    margin: -50px auto auto auto;
+    max-width: 620px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}

@@ -1,0 +1,142 @@
+.barbecue-info-container {
+    margin: -50px auto auto auto;
+    padding: 18px;
+
+    max-width: 620px;
+    min-width: 620px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 03px #555454;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-infos h5 {
+    font-weight: 800;
+    font-size: 38px;
+    margin-top: 5px;
+}
+
+.right-infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 9px;
+}
+
+.contributors-container {
+    padding: 30px 0 5px 0;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.total-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: solid 1px #f5ce34;
+    padding-bottom: 5px;
+}
+
+.total-container p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 8px;
+}
+
+.total-container span {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.button-back {
+    background: #ffffffd6;
+    border: 0;
+    border-radius: 8px;
+    margin: 0 20px 20px 0;
+    color: #000;
+    box-shadow: 0px 0px 5px #888;
+    font-weight: 700;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+.button-back:hover {
+    background: linear-gradient(to bottom, #ffffffd6, #ddddddd6);
+}
+
+.button-back:active {
+    filter: brightness(80%);
+}
+
+.button-delete {
+    background: #ff2828d6;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+.button-delete:hover {
+    filter: brightness(120%);
+    box-shadow: 0px 0px 5px #ff2828d6;
+}
+
+.button-delete:active {
+    filter: brightness(80%);
+}
+
+.button-add {
+    background: #ddba2e;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-left: 20px;
+    transition: filter 0.2s;
+}
+
+.button-add:hover {
+    filter: brightness(105%);
+    box-shadow: 0px 0px 5px #ddba2e;
+}
+
+.button-add:active {
+    filter: brightness(80%);
+}
+
+.title-delete {
+    font-size: 20px;
+    margin-bottom: 20px;
+}

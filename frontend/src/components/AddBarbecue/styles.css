@@ -1,0 +1,28 @@
+.add-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #eee;
+    border-radius: 8px;
+    box-shadow: 0px 0px 03px #555454;
+    padding: 18px;
+    height: 170px;
+    width: 300px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+.barbecue-img {
+    background-color: #f5ce34;
+    padding: 20px 25px;
+    border-radius: 50%;
+}
+
+.add-container span {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+}
